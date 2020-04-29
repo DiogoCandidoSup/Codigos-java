@@ -1,0 +1,71 @@
+Scanner scan = new Scanner(System.in);
+       
+       //1
+       /*
+       int resultado;
+       
+       System.out.println("Informe o primeiro valor: ");
+       int a = scan.nextInt();
+       System.out.println("Informe o segundo valor: ");
+       int b = scan.nextInt();
+       System.out.println("Informe o terceiro valor: ");
+       int c = scan.nextInt();
+       
+       if(a > 100 && a <= 2000   &&   b > 100 && b <= 2000   &&   c > 100 && c <= 2000)
+       {
+           resultado = a + b + c;
+           System.out.println("O resultado é: " + resultado);
+       }
+       else
+       {
+           System.out.println("Valor fora do intervalo");
+       }
+       */ 
+       
+       
+       //2
+
+       System.out.println("Informe o numero do mes");
+       int numMes = scan.nextInt();
+       
+       switch (numMes)
+       {
+           case 1:
+               System.out.println("Janeiro");
+               break;
+           case 2:
+               System.out.println("Fevereiro");
+               break;
+           case 3:
+               System.out.println("Março");
+               break;
+           case 4:
+               System.out.println("Abril");
+               break;
+           case 5: 
+               System.out.println("Maio");
+               break;
+           case 6:
+               System.out.println("Junho");
+               break;
+           case 7:
+               System.out.println("Julho");
+               break;
+           case 8:
+               System.out.println("Agosto");
+               break;
+           case 9:
+               System.out.println("Setembro");
+               break;
+           case 10:
+               System.out.println("Outubro");
+               break;
+           case 11: 
+               System.out.println("Novembro");
+               break;
+           case 12:
+               System.out.println("Dezembro");
+               break;
+           default:
+               System.out.println("Mês invalido");
+       }
