@@ -1,0 +1,137 @@
+ Scanner scan = new Scanner(System.in);
+        //questao 1
+        /*
+        //declaracao e leitura
+        System.out.println("Digite o valor: ");
+        int x = scan.nextInt();
+        
+        //calculo
+        if(x % 2 == 0)
+        {
+            System.out.println("O valor é par");
+        }
+        else
+        {
+            System.out.println("O valor é impar");
+        }
+        */
+        
+        
+        //questao 2
+        /*
+        System.out.println("Digite o primeiro valor:");
+        int n1 = scan.nextInt();
+        System.out.println("Digite o segundo valor: ");
+        int n2 = scan.nextInt();
+        System.out.println("Digite o terceiro valor: ");
+        int n3 = scan.nextInt();
+        
+        if(n1 >= n2 && n1 >= n3)
+        {
+            System.out.println("O primeiro é maior");
+        }
+        else if(n2 >= n3)
+        {
+            System.out.println("O segundo é maior");
+        }
+        else
+        {
+            System.out.println("O terceiro é maior");
+        }
+        */
+        
+        //questao 3
+        /*
+        System.out.println("Digite o valor a (maior): ");
+        int a = scan.nextInt();
+        System.out.println("Digite o valor b (menor): ");
+        int b = scan.nextInt();
+        
+        if(a % b == 0)
+        {
+            System.out.println("Os valores são multiplos");
+        }
+        else
+        {
+            System.out.println("Os valores não são multiplos");
+        }
+        */
+        
+        //questao 4
+        /*
+        double mediaA;
+        
+        System.out.println("Digite a primeira nota:");
+        double nota1 = scan.nextDouble();
+        System.out.println("Digite a segunda nota: ");
+        double nota2 = scan.nextDouble();
+        System.out.println("Digite a terceira nota: ");
+        double nota3 = scan.nextDouble();
+        
+        mediaA = (nota1 + nota2 + nota3) / 3;
+        
+        if(mediaA >= 6)
+        {
+            System.out.println("Aprovado!");
+            System.out.println("Sua média é: " + media);
+        }
+        else
+        {
+            System.out.println("Reprovado :(");
+            System.out.println("Sua média é: " + media);
+        }
+        */
+        
+        //questao 5
+        /*
+        System.out.println("Digite o valor: ");
+        int n = scan.nextInt();
+        
+        if(n % 2 == 0)
+        {
+            System.out.println("O valor é par");
+        }
+        else
+        {
+            System.out.println("O valor é impar");
+        }
+        
+        if(n > 0)
+        {
+            System.out.println("O valor é positivo");
+        }
+        else
+        {
+            System.out.println("O valor é negativo");
+        }
+        */
+        
+        //questao 6
+        
+        double mediaP;
+        
+        System.out.println("Digite o codigo do aluno: ");
+        String codigo = scan.nextLine();
+        System.out.println("Digite a primeira nota: ");
+        double nota1 = scan.nextDouble();
+        System.out.println("Digite a segunda nota: ");
+        double nota2 = scan.nextDouble();
+        System.out.println("Digite a terceira nota: ");
+        double nota3 = scan.nextDouble();
+        
+        mediaP = (nota1 * 3 + nota2 * 3 + nota3 * 4) / (3 + 3 + 4);
+        
+        System.out.println("Codigo do aluno: " + codigo);
+        System.out.println("Nota 1: " + nota1);
+        System.out.println("Nota 2: " + nota2);
+        System.out.println("Nota 3: " + nota3);
+        System.out.println("Media: " + mediaP);
+        
+        if (mediaP >= 5)
+        {
+            System.out.println("Aprovado");
+        }
+        else
+        {
+            System.out.println("Reprovado");
+        }
