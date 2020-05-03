@@ -1,1 +1,32 @@
-teste, clicar no lapis pra editar
+System.out.println("Informe o primeiro lado: ");
+        int A = scan.nextInt();
+        System.out.println("Informe o segundo lado: ");
+        int B = scan.nextInt();
+        System.out.println("Informe o terceiro ladoo: ");
+        int C = scan.nextInt();
+        
+        if( B + C > A && A + C > B && A + B > C)
+        {
+            if(A == B && B == C && C == A)
+            {
+                System.out.println("Equilátero: Todos os lados são iguais");
+            }
+            else if( A != B && B != C && C != A)
+            {
+                System.out.println("Escaleno: Todos os lados são diferentes");
+            }
+            else
+            {
+                System.out.println("Isosceles: Dois lados são iguais e um é diferente");
+            }
+        }
+        else
+        {
+            System.out.println("Não é um triângulo");
+        }
+        
+        //ver se é triangulo B + C < A && A + C < B && A + B < C
+        
+        //equilatero (todos iguais) A == B == C ou A == B && B == C && C == A
+        //escaleno (todos diferentes) A != B != C ou A != B && B != C && C != A
+        //isosceles else 
