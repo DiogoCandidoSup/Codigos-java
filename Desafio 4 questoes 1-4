@@ -1,0 +1,106 @@
+Scanner scan = new Scanner(System.in);
+        
+        //questao 1
+        /*
+        double multa, excesso;
+        
+        System.out.println("Digite o peso: ");
+        double peso = scan.nextDouble();
+        
+        if(peso>50)
+        {
+            excesso = peso - 50;
+            multa = excesso * 4;
+        }
+        else
+        {
+            excesso = 0;
+            multa = 0;
+        }
+        System.out.println("Peso: " + peso);
+        System.out.println("Excesso: " + excesso);
+        System.out.println("Multa: R$" + multa);
+        */
+        
+        //questao 2
+        /*
+        System.out.println("Informe o numero da matricula: ");
+        String matricula = scan.nextLine();
+        System.out.println("Informe a nota: ");
+        double nota = scan.nextDouble();
+        
+        if(nota >= 0.0 && nota <=4.9)
+        {
+            System.out.println("Conceito: D");
+        }
+        else if(nota >= 5.0 && nota <= 6.9)
+        {
+            System.out.println("Conceito: C");
+        }
+        else if(nota >= 7.0 && nota <= 8.9)
+        {
+            System.out.println("Conceito: B");
+        }
+        else
+        {
+            System.out.println("Conceito: A");
+        }
+        */
+        
+        //questao 3
+        /*
+        double valorCre, saldoT;
+        
+        System.out.println("Informe o seu saldo medio: ");
+        double saldo = scan.nextDouble();
+        
+        if(saldo >= 0.0 && saldo <= 200)
+        {
+            System.out.println("Sem credito (0%)");
+            valorCre = 0;
+        }
+        else if(saldo >= 201 && saldo <= 400)
+        {
+            System.out.println("20% de credito");
+            valorCre = saldo * 0.2;
+        }
+        else if(saldo >= 401 && saldo <= 600)
+        {
+            System.out.println("30% de credito");
+            valorCre = saldo * 0.3;
+        }
+        else
+        {
+            System.out.println("40% de credito");
+            valorCre = saldo * 0.4;
+        }
+        
+        saldoT = saldo + valorCre;
+        
+        System.out.println("Saldo medio: R$" + saldo);
+        System.out.println("Valor do credito: R$" + valorCre );
+        System.out.println("Saldo total: R$" + saldoT);
+        */
+        
+        //questao 4
+        
+        int resultado;
+        
+        System.out.println("Informe o primeiro valor: ");
+        int val1 = scan.nextInt();
+        System.out.println("Informe o segundo valor: ");
+        int val2 = scan.nextInt();
+        System.out.println("Informe o terceiro valor: ");
+        int val3 = scan.nextInt();
+        
+        if(val1 % 2 != 0  &&  val2 % 2 !=0  &&  val3 % 2 !=0) 
+        {
+            System.out.println("Todos são impares");
+            resultado = val1 * val2 * val3;
+        } 
+        else 
+        {
+            System.out.println("Nem todos são impares");
+            resultado = val1 + val2 + val3;
+        }
+        System.out.println("O resultado é: " + resultado);
