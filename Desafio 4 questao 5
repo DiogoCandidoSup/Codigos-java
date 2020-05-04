@@ -1,4 +1,4 @@
-System.out.println("Informe o primeiro lado: ");
+        System.out.println("Informe o primeiro lado: ");
         int A = scan.nextInt();
         System.out.println("Informe o segundo lado: ");
         int B = scan.nextInt();
